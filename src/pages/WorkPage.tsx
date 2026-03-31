@@ -68,7 +68,7 @@ const projects = [
     title: 'May Latin America Give You Wings Today!',
     category: 'Commercial',
     description: "It's for you that we accomplish dreams.",
-    image: 'https://img.youtube.com/vi/8FbCIg-qmdE/maxresdefault.jpg',
+    image: 'https://i.ytimg.com/vi/8FbCIg-qmdE/hqdefault.jpg',
     color: 'from-brand-red to-brand-orange',
     link: 'https://www.youtube.com/watch?v=8FbCIg-qmdE'
   },
