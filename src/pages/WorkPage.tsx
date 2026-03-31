@@ -26,12 +26,12 @@ import productImage3 from 'figma:asset/8b48395f25e4283ef16a77a3dfa9ce952ebf9c52.
 
 const projects = [
   {
-    title: 'No Rules Our Game',
+    title: 'May Latin America Give You Wings Today!',
     category: 'Commercial',
-    description: 'A bold new campaign that transformed brand perception',
-    image: rogerDubuisImage,
+    description: "It's for you that we accomplish dreams.",
+    image: aviancaImage,
     color: 'from-brand-red to-brand-orange',
-    link: 'https://www.instagram.com/reel/C61nLpuviQXYGyweB1SO5JXQgWvYTts9Yoc3B80/?hl=es'
+    link: 'https://www.youtube.com/watch?v=8FbCIg-qmdE'
   },
   {
     title: 'Pandemonium',
@@ -40,6 +40,22 @@ const projects = [
     image: pandemoniumImage,
     color: 'from-brand-orange to-brand-yellow',
     link: 'https://youtu.be/v_2xGTRzUUA?si=ZnrGxUyRN0OD9nxs'
+  },
+  {
+    title: 'Identidad Tomada',
+    category: 'Feature Film',
+    description: 'Showcasing creativity and innovation',
+    image: identidadTomadaImage,
+    color: 'from-brand-orange to-brand-red',
+    link: 'https://www.youtube.com/watch?v=amLxp-PifDM'
+  },
+  {
+    title: 'No Rules Our Game',
+    category: 'Commercial',
+    description: 'A bold new campaign that transformed brand perception',
+    image: rogerDubuisImage,
+    color: 'from-brand-red to-brand-orange',
+    link: 'https://www.instagram.com/reel/C61nLpuviQXYGyweB1SO5JXQgWvYTts9Yoc3B80/?hl=es'
   },
   {
     title: 'I Am Not a Doll',
@@ -56,22 +72,6 @@ const projects = [
     image: tattoosImage,
     color: 'from-brand-red via-brand-orange to-brand-yellow',
     link: 'https://www.instagram.com/reel/Cr8V2wzOi1r/'
-  },
-  {
-    title: 'Identidad Tomada',
-    category: 'Feature Film',
-    description: 'Showcasing creativity and innovation',
-    image: identidadTomadaImage,
-    color: 'from-brand-orange to-brand-red',
-    link: 'https://www.youtube.com/watch?v=amLxp-PifDM'
-  },
-  {
-    title: 'May Latin America Give You Wings Today!',
-    category: 'Commercial',
-    description: "It's for you that we accomplish dreams.",
-    image: aviancaImage,
-    color: 'from-brand-red to-brand-orange',
-    link: 'https://www.youtube.com/watch?v=8FbCIg-qmdE'
   },
   {
     title: 'Alerion',
