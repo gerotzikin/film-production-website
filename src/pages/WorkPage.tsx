@@ -29,42 +29,48 @@ const projects = [
     category: 'Commercial',
     description: 'A bold new campaign that transformed brand perception',
     image: rogerDubuisImage,
-    color: 'from-brand-red to-brand-orange'
+    color: 'from-brand-red to-brand-orange',
+    link: 'https://www.instagram.com/reel/C61nLpuviQXYGyweB1SO5JXQgWvYTts9Yoc3B80/'
   },
   {
     title: 'Pandemonium',
     category: 'Feature Film',
     description: 'Award winning picture "Best Picture" Panama Horror Film Fest 2021 as well as Inaugural film for BOGOCINE Bogota Film Festival Edition 37 2020',
     image: pandemoniumImage,
-    color: 'from-brand-orange to-brand-yellow'
+    color: 'from-brand-orange to-brand-yellow',
+    link: 'https://youtu.be/v_2xGTRzUUA?si=ZnrGxUyRN0OD9nxs'
   },
   {
     title: 'I Am Not a Doll',
     category: 'Music Video',
     description: 'A striking black and white music video exploring the battle between heart and mind celebrating self-worth, inner strength, and personal empowerment.',
     image: iAmNotADollImage,
-    color: 'from-brand-yellow to-brand-red'
+    color: 'from-brand-yellow to-brand-red',
+    link: 'https://www.instagram.com/reel/C973h13PoVS/'
   },
   {
     title: 'Tattoos',
     category: 'Music Video',
     description: 'A piece that takes viewers through the emotional journey of relationships',
     image: tattoosImage,
-    color: 'from-brand-red via-brand-orange to-brand-yellow'
+    color: 'from-brand-red via-brand-orange to-brand-yellow',
+    link: 'https://www.instagram.com/reel/Cr8V2wzOi1r/'
   },
   {
     title: 'Identidad Tomada',
     category: 'Feature Film',
     description: 'Showcasing creativity and innovation',
     image: identidadTomadaImage,
-    color: 'from-brand-orange to-brand-red'
+    color: 'from-brand-orange to-brand-red',
+    link: 'https://www.youtube.com/watch?v=amLxp-PifDM'
   },
   {
     title: 'Alerion',
     category: 'Commercial',
     description: 'Engaging content that drives conversation',
     image: alerionImage,
-    color: 'from-brand-yellow to-brand-orange'
+    color: 'from-brand-yellow to-brand-orange',
+    link: 'https://www.instagram.com/reel/C61nLpuviQXYGyweB1SO5JXQgWvYTts9Yoc3B80/'
   }
 ];
 
@@ -214,10 +220,16 @@ export function WorkPage() {
                   <h3 className="text-2xl mb-2 tracking-tight">{project.title}</h3>
                   <p className="text-foreground/70 mb-4">{project.description}</p>
                   
-                  <div className="flex items-center gap-2 text-brand-orange group-hover:gap-3 transition-all">
+                  <a
+                    href={project.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center gap-2 text-brand-orange group-hover:gap-3 transition-all"
+                    onClick={(e) => e.stopPropagation()}
+                  >
                     <span>View project</span>
                     <ExternalLink className="w-4 h-4" />
-                  </div>
+                  </a>
                 </div>
 
                 {/* Animated Border */}
