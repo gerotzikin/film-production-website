@@ -30,7 +30,7 @@ const projects = [
     description: 'A bold new campaign that transformed brand perception',
     image: rogerDubuisImage,
     color: 'from-brand-red to-brand-orange',
-    link: 'https://www.instagram.com/reel/C61nLpuviQXYGyweB1SO5JXQgWvYTts9Yoc3B80/'
+    link: 'https://www.instagram.com/reel/C61nLpuviQXYGyweB1SO5JXQgWvYTts9Yoc3B80/?hl=es'
   },
   {
     title: 'Pandemonium',
@@ -70,7 +70,7 @@ const projects = [
     description: 'Engaging content that drives conversation',
     image: alerionImage,
     color: 'from-brand-yellow to-brand-orange',
-    link: 'https://www.instagram.com/reel/C61nLpuviQXYGyweB1SO5JXQgWvYTts9Yoc3B80/'
+    link: 'https://www.instagram.com/reel/C61nLpuviQXYGyweB1SO5JXQgWvYTts9Yoc3B80/?hl=es'
   }
 ];
 
