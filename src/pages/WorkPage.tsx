@@ -7,6 +7,7 @@ import iAmNotADollImage from 'figma:asset/80bf62fa8ccd0b587196d44fc798a2078df3b6
 import tattoosImage from 'figma:asset/bf5f0fd89bb9ac80a62c8c0aa03dae976470db6b.png';
 import identidadTomadaImage from 'figma:asset/aee8db07fe54b04568cf68549bd82b9e3583e718.png';
 import alerionImage from 'figma:asset/790460535bfd0069ea30902926b811f9802981da.png';
+import aviancaImage from '../assets/avianca.png';
 import vogueImage1 from 'figma:asset/a66dfdf4fd730a90f22d74e3adce4bd61f6f8b00.png';
 import vogueImage2 from 'figma:asset/2d7b85dea77d74f341d4b3067b0c69512f75ba79.png';
 import vogueImage3 from 'figma:asset/8f69a3d56803a71e6bf4588e3abd8da66d60c557.png';
@@ -68,7 +69,7 @@ const projects = [
     title: 'May Latin America Give You Wings Today!',
     category: 'Commercial',
     description: "It's for you that we accomplish dreams.",
-    image: 'https://i.ytimg.com/vi/8FbCIg-qmdE/hqdefault.jpg',
+    image: aviancaImage,
     color: 'from-brand-red to-brand-orange',
     link: 'https://www.youtube.com/watch?v=8FbCIg-qmdE'
   },
